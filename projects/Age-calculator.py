@@ -1,5 +1,4 @@
-#tryna do some project for my guthub let's see
-from datetime import datetime
+#tryna do some project for my guthub let's see from datetime import datetime
 
 print("Find 🙌 your age precisely by your birth date: ")
 print("===============================================")
