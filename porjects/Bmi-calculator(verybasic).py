@@ -1,8 +1,4 @@
-#BMI calculator - Project No- 3rd ig (lemme js push this code to github)
-
-
-
-
+#BMI calculator - Project No- 3rd ig (lemme js push this code to github) 
 
 #1- taking inputs
 Weight = int(input("Enter your weight in kg: "))
