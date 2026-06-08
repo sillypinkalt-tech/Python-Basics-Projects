@@ -40,6 +40,26 @@ Demonstrates strings, conditionals, and user input.
 
 Default credentials: John Doe / Great@123
 
+6. Grade Analyzer
+Analyzes student grades entered in one line. Counts how many students received A, B, C, D, or F, then calculates the percentage distribution.
+
+Features:
+
+Input grades separated by spaces
+
+Splits input into a list using .split()
+
+Uses .count() and len() for totals and percentages
+
+Displays both counts and percentages clearly
+
+Example:  
+Input: A B C A D B A F  
+Output: Total students = 8, A = 3 (37.5%), B = 2 (25%), C = 1 (12.5%), D = 1 (12.5%), F = 1 (12.5%)
+
+Learning Outcome:  
+Practiced handling user input, string splitting, counting, and basic percentage math.
+
 🚀 How to Run
 Clone this repository:
 git clone https://github.com/sillypinkalt-tech/Python-Basics-Projects.git
