@@ -1,21 +1,19 @@
 # Python-Basics-Projects
-A collection of beginner Python projects (Age Calculator, BMI Calculator, Grade System, Choice Calculator, Mini Login System).
+A collection of beginner Python projects.
 
 Python Basics Projects 🎯
-A collection of beginner Python projects built to practice fundamental concepts like variables, conditionals, input/output, and simple logic.
+A collection of beginner Python projects built to practice fundamental concepts like variables, conditionals, input/output,loops (While,loop) and logic.
 Each project is short, clean, and demonstrates a specific programming skill.
 
 📂 Projects Included
-1. Age Calculator
+1. Age Calculator(Input,loops , variables and more)
 
 Takes birth date as input and calculates exact age.
-
 Demonstrates variables, arithmetic, and datetime.
 
 2. BMI Calculator (Very Basic)
 
 Inputs weight and height, calculates BMI, and prints category.
-
 Shows math operations and conditionals.
 
 3. Grade System
@@ -44,18 +42,24 @@ Default credentials: John Doe / Great@123
 Analyzes student grades entered in one line. Counts how many students received A, B, C, D, or F, then calculates the percentage distribution.
 
 Features:
-
 Input grades separated by spaces
-
 Splits input into a list using .split()
-
 Uses .count() and len() for totals and percentages
-
 Displays both counts and percentages clearly
 
 Example:  
 Input: A B C A D B A F  
 Output: Total students = 8, A = 3 (37.5%), B = 2 (25%), C = 1 (12.5%), D = 1 (12.5%), F = 1 (12.5%)
+
+7. Library Books Tracker
+
+📚 Library Book Tracker  
+The Library Book Tracker is a Python mini‑system that helps manage books in a small library by letting users add, borrow, return, and report on books. It uses dictionaries, lists, loops, and conditionals to simulate a simple management tool, making it a practical step from basic scripts toward real‑world applications.
+
+Features:
+Add books with title and author
+Borrow books if available
+Return books to make them available again
 
 Learning Outcome:  
 Practiced handling user input, string splitting, counting, and basic percentage math.
