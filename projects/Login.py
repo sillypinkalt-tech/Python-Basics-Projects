@@ -4,18 +4,28 @@
 # Hint: Default username = John Doe password = Great@123
 # You can change these values if you want different credentials
 
-# Pre-saved credentials
-saved_username = "John Doe"
-saved_password = "Great@123"
 
-print("Enter your details to log into your account")
+#Loops
 
-#Login Inputs
+while True:
+    # Pre-saved credentials
+    saved_username = "John Doe"
+    saved_password = "Great@123"
 
-username = input("Enter your username: ")
-password = input("Enter your password: ")
+    print("Enter your details to log into your account")
 
-if(username==saved_username and password==saved_password):
-    print("✅ Logged in Successfully")
-else:
-    print("❌ invalid Credentials, try again")
+    #Login Inputs
+
+    username = input("Enter your username: ")
+    password = input("Enter your password: ")
+
+    if(username==saved_username and password==saved_password):
+        print("✅ Logged in Successfully")
+    else:
+        print("❌ invalid Credentials, try again")
+    
+
+    #Loops Exit
+    again= input("Try Again? (Yes/No): ").lower()
+    if again != "yes":
+        break
